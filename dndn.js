@@ -15,3 +15,8 @@ client.on('ready', () => {
  client.user.setGame(CodingXActivity[index], "https://www.twitch.tv/CodingXArea");
   }, 10000); //10 seconds
 });
+
+
+
+
+client.login(process.env.BOT_TOKEN)
