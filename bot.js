@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 const CodingXActivity = [
-  "minecraft", //IT's Broken Here
-  "PUBG",
+  ".", //IT's Broken Here
+  ".",
   ];
   
 client.on('ready', () => {
