@@ -1,8 +1,5 @@
-const Discord = require('discord.js');//????? ???
-const client = new Discord.Client();// ????? ???????
-const ms = require('ms');
-const pms = require('pretty-ms');
-
+const Discord = require("discord.js");
+const client = new Discord.Client();
 
 const CodingXActivity = [
   "minecraft", //IT's Broken Here
@@ -17,6 +14,4 @@ client.on('ready', () => {
 });
 
 
-
-
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
